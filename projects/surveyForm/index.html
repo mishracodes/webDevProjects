@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>surveyForm</title>
+    <link rel="icon" id="favicon" type="image/png" href="assets/survey.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading text-center">Demonetization Effect Survey</h1>
+    <h3 class="subHeading text-center">This survey is made in order to get primary data and to do further research on the impact of demonetization on people while buying everyday goods. <br>
+        Please answer all the questions. <br>
+        <b>Thank you!</b> </h3>
+
+    <div class="form">
+        <form action="#">
+            <label for="name">Name</label><input type="text" name="name" id="name" required>
+            <br>
+            <label for="age">Age</label> <sup style="color: red;">*</sup><input type="number" name="age" id="age">
+            <br>
+            <p>Gender <sup style="color: red;">*</sup></p>
+                <input type="radio" required name="gender" value="male" id="male"><label for="male">Male</label> <br>
+                <input type="radio" name="gender" value="female" id="female"><label for="female">Female</label> <br>
+                <input type="radio" name="gender" value="other" id="other"><label for="other">Other</label> <br>
+            <br>
+            <p>Education <sup style="color: red;">*</sup></p>
+                <input type="radio" required name="education" value="12edu" id="12edu"><label for="12edu">Up to 12th Std.</label> <br>
+                <input type="radio" name="education" value="gradedu" id="gradedu"><label for="gradedu">Graduation</label> <br>
+                <input type="radio" name="education" value="postgradedu" id="postgradedu"><label for="postgradedu">Post-Graduation</label> <br>
+                <input type="radio" name="education" value="proffedu" id="proffedu"><label for="proffedu">Professional Degree</label> <br>
+            <br>
+           <p>Family's Annual Income <sup style="color: red;">*</sup></p>
+                <input type="radio" required name="income" value="twolacks" id="twolacks"><label for="twolacks">Up to 2 lakhs</label> <br>
+                <input type="radio" name="income" value="fivelacks" id="fivelacks"><label for="fivelacks">2 - 5 lakhs</label> <br>
+                <input type="radio" name="income" value="tenlacks" id="tenlacks"><label for="tenlacks">5 - 10 lakhs</label> <br>
+                <input type="radio" name="income" value="moretenlacks" id="moretenlacks"><label for="moretenlacks">10 lakhs and above</label> <br>
+                
+            <br>
+            <p>In your opinion, there was liquidity crunch faced after demonetization <sup style="color: red;">*</sup></p>
+                <input type="radio" required name="liquidity" value="liquidityAgree" id="liquidityAgree"><label for="liquidityAgree">Agree</label> <br>
+                <input type="radio" name="liquidity" value="liquidityNeutral" id="liquidityNeutral"><label for="liquidityNeutral">Neutral</label> <br>
+                <input type="radio" name="liquidity" value="liquidityDisagree" id="liquidityDisagree"><label for="liquidityDisagree">Disagree</label> <br>
+                
+            <br>
+            <p>You have experienced the liquidity crunch yourself <sup style="color: red;">*</sup></p>
+                <input type="radio" required name="experiencedliquidity" value="exAgree" id="exAgree"><label for="exAgree">Agree</label> <br>
+                <input type="radio" name="experiencedliquidity" value="exNeutral" id="exNeutral"><label for="exNeutral">Neutral</label> <br>
+                <input type="radio" name="experiencedliquidity" value="exDisagree" id="exDisagree"><label for="exDisagree">Disagree</label> <br>
+            
+            <br>
+            <p>You have waited in queues for cash withdrawal in Bank <sup style="color: red;">*</sup></p>
+                <input type="radio" required name="Bankcash" value="Bankcashyes" id="Bankcashyes"><label for="Bankcashyes">Yes</label> <br>
+                <input type="radio" name="Bankcash" value="Bankcashno" id="Bankcashno"><label for="Bankcashno">No</label> <br>
+
+            <br>
+            <p>You have waited in queues for cash withdrawal in ATM <sup style="color: red;">*</sup></p>
+                <input type="radio" required name="ATMcash" value="ATMcashyes" id="ATMcashyes"><label for="ATMcashyes">Yes</label> <br>
+                <input type="radio" name="ATMcash" value="ATMcashno" id="ATMcashno"><label for="ATMcashno">No</label> <br>
+
+            <br>
+            <p>You have experienced halting of events like marriages <sup style="color: red;">*</sup></p>
+                <input type="radio" required name="marriages" value="marriagesyes" id="marriagesyes"><label for="marriagesyes">Yes</label> <br>
+                <input type="radio" name="marriages" value="marriagesno" id="marriagesno"><label for="marriagesno">No</label> <br>
+
+            <br>
+            <p>I have been using digital medium before demonetization <sup style="color: red;">*</sup></p>
+                <input type="radio" required name="digitalpre" value="digitalpreyes" id="digitalpreyes"><label for="digitalpreyes">Yes</label> <br>
+                <input type="radio" name="digitalpre" value="digitalpreno" id="digitalpreno"><label for="digitalpreno">No</label> <br>
+
+            <br>
+            <p>I have started using digital medium post demonetization <sup style="color: red;">*</sup></p>
+                <input type="radio" required name="digitalpost" value="digitalpostyes" id="digitalpostyes"><label for="digitalpostyes">Yes</label> <br>
+                <input type="radio" name="digitalpost" value="digitalpostno" id="digitalpostno"><label for="digitalpostno">No</label> <br>
+
+            <br>
+            <p>There has been an increase in Corruption post demonetization <sup style="color: red;">*</sup></p>
+                <input type="radio" required name="Corruption" value="CorruptionAgree" id="CorruptionAgree"><label for="CorruptionAgree">Agree</label> <br>
+                <input type="radio" name="Corruption" value="CorruptionNeutral" id="CorruptionNeutral"><label for="CorruptionNeutral">Neutral</label> <br>
+                <input type="radio" name="Corruption" value="CorruptionDisagree" id="CorruptionDisagree"><label for="CorruptionDisagree">Disagree</label> <br>
+
+            <br>
+            <p>There has been an increase in prices post demonetization <sup style="color: red;">*</sup></p>
+                <input type="radio" required name="prices" value="pricesAgree" id="pricesAgree"><label for="pricesAgree">Agree</label> <br>
+                <input type="radio" name="prices" value="pricesNeutral" id="pricesNeutral"><label for="pricesNeutral">Neutral</label> <br>
+                <input type="radio" name="prices" value="pricesDisagree" id="pricesDisagree"><label for="pricesDisagree">Disagree</label> <br> 
+
+            <br>
+            <p>There has been an increase in terrorism and Naxalite activities post demonetization  <sup style="color: red;">*</sup></p>
+                <input type="radio" required name="terrorism" value="terrorismAgree" id="terrorismAgree"><label for="terrorismAgree">Agree</label> <br>
+                <input type="radio" name="terrorism" value="terrorismNeutral" id="terrorismNeutral"><label for="terrorismNeutral">Neutral</label> <br>
+                <input type="radio" name="terrorism" value="terrorismDisagree" id="terrorismDisagree"><label for="terrorismDisagree">Disagree</label> <br>
+    
+            <br>
+            <p>GDP growth has slowed down post demonetization <sup style="color: red;">*</sup></p>
+                <input type="radio" required name="GDP" value="GDPAgree" id="GDPAgree"><label for="GDPAgree">Agree</label> <br>
+                <input type="radio" name="GDP" value="GDPNeutral" id="GDPNeutral"><label for="GDPNeutral">Neutral</label> <br>
+                <input type="radio" name="GDP" value="GDPDisagree" id="GDPDisagree"><label for="GDPDisagree">Disagree</label> <br> 
+
+            <br>
+            <p>Accounts opened under Pradhan Mantri Jan Dhan Yojana must have seen an increase in the deposits, post demonetization <sup style="color: red;">*</sup></p>
+                <input type="radio" required name="Yojana" value="YojanaAgree" id="YojanaAgree"><label for="YojanaAgree">Agree</label> <br>
+                <input type="radio" name="Yojana" value="YojanaNeutral" id="YojanaNeutral"><label for="YojanaNeutral">Neutral</label> <br>
+                <input type="radio" name="Yojana" value="YojanaDisagree" id="YojanaDisagree"><label for="YojanaDisagree">Disagree</label> <br>
+                
+            <br>
+            <p>Collection of taxes has increased substantially <sup style="color: red;">*</sup></p>
+                <input type="radio" required name="substantially" value="substantiallyAgree" id="substantiallyAgree"><label for="substantiallyAgree">Agree</label> <br>
+                <input type="radio" name="substantially" value="substantiallyNeutral" id="substantiallyNeutral"><label for="substantiallyNeutral">Neutral</label> <br>
+                <input type="radio" name="substantially" value="substantiallyDisagree" id="substantiallyDisagree"><label for="substantiallyDisagree">Disagree</label> <br>     
+                
+            <br>
+            <p>Size of grey market economy has increased substantially <sup style="color: red;">*</sup></p>
+                <input type="radio" required name="grey" value="greyAgree" id="greyAgree"><label for="greyAgree">Agree</label> <br>
+                <input type="radio" name="grey" value="greyNeutral" id="greyNeutral"><label for="greyNeutral">Neutral</label> <br>
+                <input type="radio" name="grey" value="greyDisagree" id="greyDisagree"><label for="greyDisagree">Disagree</label> <br>        
+
+                        <br>
+           <p>What would you like to see improved? (Check all that apply)</p>
+                <input type="checkbox" required name="whatToImprove" id="questions" checked><label for="questions">Questions</label>
+                <input type="checkbox" name="whatToImprove" id="design" ><label for="design">Design</label>
+            <br><br> 
+            <p>Any comments or suggestions?</p> 
+                <textarea name="suggestion" placeholder="Enter your comment here..." id="suggestion"></textarea>
+
+            <button type="submit" id="submit" class="submit-button"> Submit</button> 
+        </form>
+    </div>
+    
+</body>
+</html>
